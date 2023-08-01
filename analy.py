@@ -25,7 +25,7 @@ dic_224x224={}
 class Test(object):
     def __init__(self, Dataset, Network, path):
         ## dataset
-        self.cfg    = Dataset.Config(datapath=path, snapshot='../experiments/model76/model-32', mode='test')
+        self.cfg    = Dataset.Config(datapath=path, snapshot='../exp/model-32', mode='test')
         self.data   = Dataset.Data(self.cfg)
         self.loader = DataLoader(self.data, batch_size=1, shuffle=False, num_workers=8)
         ## network
