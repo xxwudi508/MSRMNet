@@ -16,8 +16,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
-import dataset1
-from net1  import DPNet
+import dataset
+from net  import MSRMNet
 import time
 
 class Test(object):
@@ -100,6 +100,6 @@ if __name__=='__main__':
     for path in ['test','DUT-OMRON']:
     # for path in ['test']:
 
-        t = Test(dataset1, DPNet, root + path)
+        t = Test(dataset, MSRMNet, root + path)
         t.save()
         # t.show()
