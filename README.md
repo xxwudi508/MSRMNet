@@ -13,6 +13,6 @@ python3 train.py
 - After training, the result models will be saved in `out` folder
 
 ## Acknowledgement
- The evaluation code comes from: https://github.com/zyjwuyan/SOD Evaluation Metrics.
+ The evaluation code comes from: https://github.com/zyjwuyan/SOD_Evaluation_Metrics.
 Our work is based on [F3Net](https://github.com/weijun88/F3Net).
 We fully thank their open-sourced code.
