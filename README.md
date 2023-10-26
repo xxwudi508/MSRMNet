@@ -6,9 +6,9 @@ by Xinlong Liu, Luping Wang
 
 We provide the [saliency maps](https://pan.baidu.com/s/1Zt5zAEqTJRCamzwqYSV5FQ ) (Fetch Code: MSRM) for comparisons,  including DUTS-OMRON, DUTS-TE, ECSSD, HKU-IS, PASCAL-S.  The folder also contains the datasets used, the pretrained model, and our resulting model.
 
-## Training
+## test
 ```
-python3 train.py
+python3 test.py
 ```
 - After training, the result models will be saved in `out` folder
 
