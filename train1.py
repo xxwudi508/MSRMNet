@@ -11,8 +11,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
-import dataset1
-from net1  import DPNet
+import dataset
+from net  import MSRMNet
 import os
 import random
 import numpy as np
@@ -129,4 +129,4 @@ def validate(model, val_loader, nums):
     return (avg_mae / nums).item()
 
 if __name__=='__main__':
-    train(dataset1, DPNet)
+    train(dataset1, MSRMNet)
